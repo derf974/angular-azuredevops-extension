@@ -1,0 +1,49 @@
+{
+  "manifestVersion": 1,
+  "id": "{{extensionid}}",
+  "publisher": "{{publisherid}}",
+  "version": "1.0.11",
+  "name": "Base Angular",
+  "description": "Description de votre extension",
+  "public": false,
+  "categories": ["Azure Repos"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "icons": {
+    "default": "logo.png"
+  },
+  "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "scopes": [],
+  "files": [
+    {
+      "path": "dist/ado-extension-angular/browser",
+      "addressable": true,
+      "packagePath": "/"
+    },
+    {
+        "path": "node_modules/azure-devops-extension-sdk",
+        "addressable": true,
+        "packagePath": "lib"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "votre-hub-id",
+      "type": "ms.vss-web.hub",
+      "targets": [
+        "ms.vss-code-web.code-hub-group"
+      ],
+      "properties": {
+        "name": "Votre Hub Name",
+        "uri": "index.html"
+      }
+    }
+  ]
+} 
