@@ -57,3 +57,40 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Publishing
+
+1. Create a publisher account in the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/manage)
+2. Update the `vss-extension.json` with your publisher ID
+3. Build the extension
+4. Upload the `.vsix` file to the marketplace
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Azure DevOps Extension SDK](https://github.com/Microsoft/azure-devops-extension-sdk)
+- [Angular](https://angular.io/)
+- [Azure DevOps Extension Samples](https://github.com/Microsoft/azure-devops-extension-sample)
+
+## Support
+
+For support, please open an issue in the GitHub repository or contact the maintainers.
+
+## Authors
+
+- Your Name - *Initial work* - [YourGitHub](https://github.com/yourusername)
+
+## Project Status
+
+This project is currently in development. Features and documentation are subject to change.
